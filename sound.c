@@ -91,7 +91,8 @@ void displayWAVheader(char filename[]){
 	printID(myhdr.subChunk2ID);
 	printf("subchunk 2 size: %d\n", myhdr.subChunk2Size);
 }
-
+/* This function is for displaying the data
+*/
 void printID(char id[]){
 	int i;
 	for (i=0; i<4; i++)
